@@ -1,0 +1,12 @@
+server:
+  port: 6700
+spring:
+  application:
+    name: nacos-consumer-movie6700
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+feign:
+  hystrix:
+    enabled: true
